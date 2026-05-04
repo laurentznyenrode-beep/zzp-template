@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Idee voor de website van {{businessName}}</title>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1f2937;">
+  <!-- Preheader (verborgen, sommige clients tonen het als preview) -->
+  <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;">
+    Een eenvoudige professionele website zodat klanten je vinden via Google.
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;">
+    <tr>
+      <td align="center" style="padding:24px 16px;">
+        <table role="presentation" width="560" cellpadding="0" cellspacing="0" border="0" style="max-width:560px;width:100%;">
+          <tr>
+            <td style="padding:8px 4px;font-size:16px;line-height:1.6;color:#1f2937;">
+
+              <p style="margin:0 0 16px 0;">Hoi {{ownerName}},</p>
+
+              <p style="margin:0 0 16px 0;">
+                Ik kwam je bedrijf tegen en zag dat {{personalNote}}. Daarom stuur ik je deze mail.
+              </p>
+
+              <p style="margin:0 0 16px 0;">
+                Ik help ZZP'ers in de bouw- en installatiesector aan een eenvoudige, professionele website. Niks ingewikkelds — gewoon een plek waar iemand die googelt op &ldquo;{{trade}} {{exampleCity}}&rdquo; jou vindt en kan bellen.
+              </p>
+
+              <p style="margin:0 0 8px 0;">Dit is een voorbeeld van hoe het eruit ziet:</p>
+              <p style="margin:0 0 20px 0;">
+                <a href="{{demoUrl}}" style="color:#0E5BA8;text-decoration:underline;font-weight:500;">{{demoUrl}}</a>
+              </p>
+
+              <p style="margin:0 0 16px 0;">
+                Geen verplichtingen, gewoon even kijken. Als je vragen hebt of wil weten wat het voor jouw bedrijf zou kosten: stuur me een berichtje{{#senderPhone}} of bel me direct op <a href="tel:{{senderPhoneRaw}}" style="color:#0E5BA8;text-decoration:none;">{{senderPhone}}</a>{{/senderPhone}}.
+              </p>
+
+              <p style="margin:24px 0 4px 0;">Fijne dag,</p>
+              <p style="margin:0;">{{senderName}}</p>
+
+              <!-- Discrete opt-out -->
+              <p style="margin:32px 0 0 0;font-size:12px;color:#9ca3af;line-height:1.5;">
+                Geen interesse? Geen probleem — laat het me weten met een korte reply en je hoort me niet meer.
+              </p>
+
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

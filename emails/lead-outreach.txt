@@ -1,0 +1,23 @@
+Hoi {{ownerName}},
+
+Ik kwam je bedrijf tegen en zag dat {{personalNote}}. Daarom stuur
+ik je deze mail.
+
+Ik help ZZP'ers in de bouw- en installatiesector aan een eenvoudige,
+professionele website. Niks ingewikkelds — gewoon een plek waar
+iemand die googelt op "{{trade}} {{exampleCity}}" jou vindt en kan
+bellen.
+
+Dit is een voorbeeld van hoe het eruit ziet:
+{{demoUrl}}
+
+Geen verplichtingen, gewoon even kijken. Als je vragen hebt of wil
+weten wat het voor jouw bedrijf zou kosten: stuur me een berichtje{{#senderPhone}} of
+bel me direct op {{senderPhone}}{{/senderPhone}}.
+
+Fijne dag,
+{{senderName}}
+
+---
+Geen interesse? Geen probleem — laat het me weten met een korte reply
+en je hoort me niet meer.

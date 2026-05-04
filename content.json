@@ -1,0 +1,151 @@
+{
+  "business": {
+    "name": "Loodgietersbedrijf Jansen",
+    "shortName": "Jansen",
+    "tagline": "Vakkundige loodgieter in Utrecht en omgeving",
+    "owner": "Pieter Jansen",
+    "foundedYear": 2012,
+    "kvk": "55123456",
+    "btw": "NL001234567B01",
+    "phone": "030 - 123 45 67",
+    "phoneRaw": "+31301234567",
+    "email": "info@loodgietersbedrijfjansen.nl",
+    "address": {
+      "street": "Maliebaan 42",
+      "postalCode": "3581 CR",
+      "city": "Utrecht",
+      "country": "Nederland",
+      "lat": 52.0907,
+      "lng": 5.1214
+    }
+  },
+  "trade": {
+    "type": "loodgieter",
+    "typeCapital": "Loodgieter",
+    "typePlural": "loodgieters",
+    "service": "loodgieterswerk"
+  },
+  "branding": {
+    "primaryColor": "#0E5BA8",
+    "secondaryColor": "#F59E0B",
+    "logo": "/logo.svg",
+    "favicon": "/favicon.ico",
+    "ogImage": "/og.png"
+  },
+  "workArea": [
+    { "slug": "utrecht", "name": "Utrecht", "intro": "In hartje Utrecht en de omliggende wijken zoals Lombok, Wittevrouwen, Tuindorp en Oog in Al staan we dagelijks bij klanten over de vloer." },
+    { "slug": "nieuwegein", "name": "Nieuwegein", "intro": "Voor klanten in Nieuwegein, Vreeswijk en Jutphaas rijden we dagelijks. Doorgaans dezelfde dag bij u thuis." },
+    { "slug": "houten", "name": "Houten", "intro": "Houten is voor ons een vertrouwd werkgebied — van Het Oude Dorp tot 't Goy en de Loerik-buurten." },
+    { "slug": "zeist", "name": "Zeist", "intro": "In Zeist, Den Dolder en Bosch en Duin werken we al jaren voor zowel particulieren als VvE's." },
+    { "slug": "ijsselstein", "name": "IJsselstein", "intro": "IJsselstein, inclusief de wijken Zenderpark en IJsselveld, valt binnen ons standaard werkgebied." },
+    { "slug": "maarssen", "name": "Maarssen", "intro": "Voor Maarssen, Maarssenbroek en Tienhoven zijn we vaak dezelfde dag beschikbaar." }
+  ],
+  "usps": [
+    { "title": "Vaste prijs vooraf", "description": "Geen verrassingen achteraf — u krijgt altijd een heldere prijsopgave voordat we starten.", "icon": "BadgeEuro" },
+    { "title": "24/7 spoeddienst", "description": "Bij lekkage of verstopping staan we dezelfde dag voor uw deur, ook in het weekend.", "icon": "Clock" },
+    { "title": "Erkend en verzekerd", "description": "Lid van Techniek Nederland en volledig verzekerd voor schade.", "icon": "ShieldCheck" },
+    { "title": "Garantie op werk", "description": "Op al ons werk geven wij minimaal 2 jaar garantie, op materialen tot 5 jaar.", "icon": "Award" }
+  ],
+  "services": [
+    {
+      "slug": "cv-ketel",
+      "title": "CV-ketel onderhoud & vervanging",
+      "shortDescription": "Jaarlijks onderhoud, storingen oplossen of een complete nieuwe ketel installeren.",
+      "longDescription": "Een goed onderhouden CV-ketel gaat jaren langer mee en bespaart u flink op de gasrekening. Wij voeren jaarlijks onderhoud uit volgens de fabrikantvoorschriften, lossen storingen op binnen 24 uur en plaatsen nieuwe ketels van Intergas, Remeha, Nefit en Vaillant. Bij vervanging zorgen we voor een correcte aanmelding, demontage van de oude ketel en netjes opleveren. Voor zonneboilers en hybride opstellingen kunt u ook bij ons terecht.",
+      "icon": "Flame",
+      "image": "/services/cv-ketel.jpg"
+    },
+    {
+      "slug": "lekkage",
+      "title": "Lekkage opsporen & verhelpen",
+      "shortDescription": "Snelle, schoonmaakbestendige opsporing met thermografie of vochtmeting.",
+      "longDescription": "Een lekkage kan grote schade veroorzaken als deze niet snel wordt verholpen. Wij sporen lekkages op met moderne apparatuur — thermografische camera's, vochtmeters en akoestische detectie — zodat we niet zomaar muren of vloeren hoeven open te breken. Na opsporing repareren we direct of geven we een rapportage voor uw verzekering. Wij werken met alle grote opstalverzekeraars samen.",
+      "icon": "Droplets",
+      "image": "/services/lekkage.jpg"
+    },
+    {
+      "slug": "ontstopping",
+      "title": "Ontstopping riool & afvoer",
+      "shortDescription": "Verstopte wc, gootsteen of riolering? Vaak binnen het uur ter plaatse.",
+      "longDescription": "Een verstopping wacht niet. Wij rijden door heel Midden-Nederland met volledig uitgeruste service-bussen voor ontstoppingen. Of het nu een wc, gootsteen, douche of de hoofdriolering is — met onze hogedrukreiniger en flexibele veren krijgen we vrijwel elke verstopping verholpen. Op verzoek voeren we direct een camera-inspectie uit om de oorzaak vast te leggen.",
+      "icon": "Pipette",
+      "image": "/services/ontstopping.jpg"
+    },
+    {
+      "slug": "badkamer",
+      "title": "Badkamer renovatie",
+      "shortDescription": "Volledige badkamerrenovatie van ontwerp tot oplevering, in 1 hand.",
+      "longDescription": "Wij renoveren badkamers van A tot Z: sloop, leidingwerk, tegelen, sanitair, elektra en oplevering. U heeft één aanspreekpunt. Door onze vaste samenwerking met tegelzetters en elektriciens uit de regio leveren we vlot en zonder verrassingen. Een gemiddelde badkamer is in 2 weken klaar; planning bespreken we vooraf in detail.",
+      "icon": "Bath",
+      "image": "/services/badkamer.jpg"
+    },
+    {
+      "slug": "dakgoot",
+      "title": "Dakgoten & hemelwaterafvoer",
+      "shortDescription": "Reiniging, reparatie of complete vervanging van zink en HWA.",
+      "longDescription": "Verstopte of lekke dakgoten leiden tot vochtige muren en gevelschade. Wij reinigen, repareren en vervangen dakgoten in zink, koper, kunststof of aluminium. Ook voor hemelwaterafvoer en regenpijpen — bij vervanging gebruiken we standaard zink van minimaal 0,8 mm voor maximale levensduur.",
+      "icon": "CloudRain",
+      "image": "/services/dakgoot.jpg"
+    },
+    {
+      "slug": "sanitair",
+      "title": "Sanitair installatie",
+      "shortDescription": "Plaatsing van wasbak, douche, wc, kraan en alle aansluitingen.",
+      "longDescription": "Of u nu één kraan wilt vervangen of een complete toilet- of doucheruimte laat aanleggen — wij verzorgen alle leiding- en sanitairwerk. Wij werken met merken als Grohe, Hansgrohe, Geberit en Villeroy & Boch. Heeft u zelf al sanitair gekocht? Geen probleem, we monteren het netjes en geven garantie op de installatie.",
+      "icon": "ShowerHead",
+      "image": "/services/sanitair.jpg"
+    }
+  ],
+  "reviews": [
+    { "name": "Marieke de Vries", "city": "Utrecht", "rating": 5, "text": "Pieter heeft onze CV-ketel binnen een dag vervangen, vaste prijs en netjes opgeruimd. Top service.", "date": "2026-02-14" },
+    { "name": "Jeroen Bakker", "city": "Nieuwegein", "rating": 5, "text": "Lekkage in de keuken, binnen 2 uur ter plaatse. Probleem snel gevonden en gerepareerd. Aanrader!", "date": "2026-01-22" },
+    { "name": "Sandra Smit", "city": "Houten", "rating": 4, "text": "Prima werk geleverd bij badkamerrenovatie. Iets uitgelopen in tijd maar het eindresultaat is prachtig.", "date": "2025-11-08" },
+    { "name": "Familie Hendriks", "city": "Zeist", "rating": 5, "text": "Al jaren onze vaste loodgieter. Eerlijk, vakkundig en altijd bereikbaar. Niets dan lof.", "date": "2025-09-30" }
+  ],
+  "faq": [
+    { "question": "Werkt u ook in het weekend?", "answer": "Ja, voor spoedgevallen zoals lekkage of een verstopt riool zijn wij 7 dagen per week bereikbaar via ons spoednummer. Reguliere afspraken plannen we doordeweeks." },
+    { "question": "Krijg ik vooraf een prijsopgave?", "answer": "Altijd. Bij elke klus krijgt u eerst een heldere prijsopgave per mail of ter plaatse. Pas na uw akkoord starten wij met het werk. Geen verborgen kosten achteraf." },
+    { "question": "Welke garantie geeft u?", "answer": "Op ons werk geven wij minimaal 2 jaar garantie. Op nieuwe CV-ketels en sanitair geldt de fabrieksgarantie van 2 tot 10 jaar, afhankelijk van het merk." },
+    { "question": "Werkt u samen met mijn verzekeraar?", "answer": "Wij werken met alle grote opstalverzekeraars samen. Voor schade-rapportages leveren we een uitgebreide foto-rapportage en een herkenbare offerte." },
+    { "question": "Wat zijn uw tarieven?", "answer": "Ons uurtarief is € 75,- excl. btw. Voor spoeddienst buiten kantooruren geldt een toeslag. Voor grotere klussen werken we met vaste prijsafspraken." },
+    { "question": "Hoe snel kunt u komen?", "answer": "Bij spoedgevallen vrijwel altijd dezelfde dag, doorgaans binnen 2 uur. Reguliere afspraken plannen we meestal binnen een week in." }
+  ],
+  "social": {
+    "facebook": "https://facebook.com/loodgietersbedrijfjansen",
+    "instagram": "https://instagram.com/jansen_loodgieter",
+    "linkedin": "",
+    "google": "https://g.page/loodgietersbedrijfjansen"
+  },
+  "openingHours": [
+    { "day": "Maandag", "open": "08:00", "close": "17:30" },
+    { "day": "Dinsdag", "open": "08:00", "close": "17:30" },
+    { "day": "Woensdag", "open": "08:00", "close": "17:30" },
+    { "day": "Donderdag", "open": "08:00", "close": "17:30" },
+    { "day": "Vrijdag", "open": "08:00", "close": "16:00" },
+    { "day": "Zaterdag", "open": "Op afspraak", "close": "" },
+    { "day": "Zondag", "open": "Gesloten", "close": "" }
+  ],
+  "emergency": {
+    "enabled": true,
+    "phone": "06 - 12 34 56 78",
+    "phoneRaw": "+31612345678",
+    "label": "24/7 spoeddienst"
+  },
+  "certifications": [
+    "Lid Techniek Nederland",
+    "Erkend Vakman (KVINL)",
+    "VCA gecertificeerd",
+    "Verzekerd via Centraal Beheer"
+  ],
+  "about": {
+    "headline": "Al meer dan 12 jaar uw vaste loodgieter in Utrecht",
+    "story": "Loodgietersbedrijf Jansen is in 2012 opgericht door Pieter Jansen, na ruim 10 jaar werkervaring bij een groot installatiebedrijf in de regio. We zijn bewust kleinschalig gebleven: u heeft één aanspreekpunt, korte lijnen en altijd een vakman aan de telefoon — geen callcenter. Inmiddels werken we met een vast team van 3 monteurs en hebben we duizenden tevreden klanten in heel Midden-Nederland.",
+    "photo": "/about/owner.jpg",
+    "whyChoose": [
+      "Eén vast aanspreekpunt — geen callcenter",
+      "Vaste prijsafspraken vooraf",
+      "Snel, doorgaans dezelfde dag ter plaatse",
+      "Volledig erkend, verzekerd en gegarandeerd"
+    ]
+  }
+}
