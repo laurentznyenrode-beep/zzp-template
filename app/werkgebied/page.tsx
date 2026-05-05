@@ -39,7 +39,7 @@ export default function WerkgebiedPage() {
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed mb-4">{w.intro}</p>
                 <span className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--color-primary)] group-hover:gap-2 transition-all">
-                  {trade.typeCapital} {w.name} <ArrowRight className="size-4" />
+                  Bekijk pagina <ArrowRight className="size-4" />
                 </span>
               </Link>
             ))}

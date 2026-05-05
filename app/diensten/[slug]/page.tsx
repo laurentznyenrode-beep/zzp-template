@@ -57,8 +57,16 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
+      {service.image && service.image.startsWith("http") && (
+        <div className="relative h-64 md:h-80 overflow-hidden bg-slate-200">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={service.image} alt={service.title} className="size-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+        </div>
+      )}
+
       <section className="border-b border-[var(--color-border)] bg-[var(--color-muted)]">
-        <div className="mx-auto max-w-4xl px-4 py-16">
+        <div className="mx-auto max-w-4xl px-4 py-12">
           <Link href="/diensten" className="mb-6 inline-flex items-center gap-1 text-sm text-slate-600 hover:text-[var(--color-primary)]">
             <ArrowLeft className="size-4" /> Alle diensten
           </Link>

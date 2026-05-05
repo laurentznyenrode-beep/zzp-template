@@ -1,12 +1,11 @@
 import type { MetadataRoute } from "next";
 import { content, siteUrl } from "@/lib/content";
-import { getAllPostSlugs } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl();
   const now = new Date();
 
-  const staticPages = ["", "/diensten", "/werkgebied", "/over-ons", "/contact", "/blog"];
+  const staticPages = ["", "/diensten", "/werkgebied", "/contact"];
 
   const entries: MetadataRoute.Sitemap = staticPages.map((p) => ({
     url: `${base}${p}`,
@@ -30,15 +29,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.9,
-    });
-  }
-
-  for (const slug of getAllPostSlugs()) {
-    entries.push({
-      url: `${base}/blog/${slug}`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.6,
     });
   }
 

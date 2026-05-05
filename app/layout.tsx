@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { MobileCTABar } from "@/components/MobileCTABar";
 import { content, siteUrl } from "@/lib/content";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -40,10 +42,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <style dangerouslySetInnerHTML={{ __html: themeStyle }} />
       </head>
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col pb-[68px] md:pb-0">
         <Header business={content.business} emergency={content.emergency} />
         <main className="flex-1">{children}</main>
         <Footer content={content} />
+        <WhatsAppFloat phoneRaw={content.business.phoneRaw} />
+        <MobileCTABar phone={content.business.phone} phoneRaw={content.business.phoneRaw} />
       </body>
     </html>
   );
