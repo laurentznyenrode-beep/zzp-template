@@ -1,5 +1,4 @@
 {
-  "_TODO": "Reviews hieronder zijn plausibele placeholders. Vervang door echte Google-reviews zodra screenshots beschikbaar zijn. Google Maps was niet rechtstreeks scrape-baar voor deze lead.",
   "business": {
     "name": "Fred Olieslager Installatietechniek & Zonen",
     "shortName": "Olieslager",
@@ -98,12 +97,10 @@
     }
   ],
   "reviews": [
-    { "name": "M. de Boer", "city": "Amsterdam-Noord", "rating": 5, "text": "Al jaren onze vaste installateur. Eerlijk, vakkundig, en altijd bereikbaar. Vader Fred heeft mijn CV nog vervangen, nu komt z'n zoon voor het jaarlijkse onderhoud. Top.", "date": "2026-04-12" },
-    { "name": "VvE Buiksloterdijk", "city": "Amsterdam-Noord", "rating": 5, "text": "Vaste partner voor onderhoud van onze installaties. Communicatie is duidelijk, prijs is eerlijk, en bij spoed staan ze er snel.", "date": "2026-03-08" },
-    { "name": "J. Hendriks", "city": "Amsterdam Centrum", "rating": 5, "text": "Lekkage in de gracht-woning. Binnen 2 uur ter plaatse, met camera-inspectie meteen oorzaak vastgelegd. Schade voor de verzekering keurig gedocumenteerd.", "date": "2026-02-21" },
-    { "name": "Familie Kools", "city": "Diemen", "rating": 5, "text": "Volledige badkamer-renovatie inclusief vloerverwarming. Vaste prijs vooraf — die ook stand hield. Zoon en vader werken zo netjes en snel, echt aanrader.", "date": "2026-01-30" },
-    { "name": "K. el Amrani", "city": "Amsterdam-West", "rating": 5, "text": "Korte lijnen, geen flauwekul. CV-ketel diezelfde dag vervangen. Komt zoals afgesproken op tijd, en netjes opgeleverd.", "date": "2025-12-14" },
-    { "name": "S. van Loon", "city": "Landsmeer", "rating": 5, "text": "Niemand wilde komen voor zo'n kleine klus, behalve Fred. Snel, vriendelijk en eerlijke prijs. Heb hem al aan drie buren doorverwezen.", "date": "2025-11-22" }
+    { "name": "V. O.", "city": "Amsterdam", "rating": 5, "text": "Ze hebben mijn badkamer gerenoveerd en met me meegedacht, kwamen met creatieve oplossingen, en het eindresultaat is prachtig. Ik kan ze van harte aanbevelen!", "date": "2025-05-10" },
+    { "name": "Koorstra Th. M.", "city": "Amsterdam", "rating": 5, "text": "Vakkundig en betrouwbaar.", "date": "2016-04-15" },
+    { "name": "Silke van Daalen", "city": "Amsterdam", "rating": 1, "text": "(reviewer plaatste alleen een sterbeoordeling, geen tekst)", "date": "2024-03-20" },
+    { "name": "Gert-Jan Bark", "city": "Amsterdam", "rating": 1, "text": "Fred staat vermeld op de Remeha-website, maar het blijkt dat ze geen onderhoudswerk meer doen. Voor onderhoud van een CV-installatie kun je beter elders kijken.", "date": "2017-09-12" }
   ],
   "faq": [
     { "question": "Werken jullie ook in het weekend?", "answer": "Voor spoedklussen — gesprongen leidingen, acute lekkages, totaal CV-uitval — zijn wij ook in het weekend bereikbaar. Reguliere afspraken plannen we doordeweeks tussen 08:00 en 17:00." },

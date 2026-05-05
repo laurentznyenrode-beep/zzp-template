@@ -64,18 +64,14 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white border border-[var(--color-border)] px-3 py-1 text-xs font-medium text-slate-700">
-              <span className="flex items-center gap-0.5">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="size-3 fill-[var(--color-secondary)] text-[var(--color-secondary)]" />
-                ))}
-              </span>
-              <span>{avgRating.toFixed(1)}/5 op basis van {reviews.length} reviews</span>
+              <span className="text-[var(--color-primary)] font-bold">●</span>
+              <span>Sinds {business.foundedYear} — al {new Date().getFullYear() - business.foundedYear}+ jaar uw installateur</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 mb-4">
               {business.tagline}
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-xl">
-              {business.name} staat voor vakwerk, vaste prijs vooraf en snelle service. {trade.typeCapital} in {business.address.city} en omgeving — met een {avgRating.toFixed(1)}-sterren waardering uit {reviews.length} Google-reviews.
+              {business.name} staat voor vakwerk, vaste prijs vooraf en snelle service. {trade.typeCapital} in {business.address.city} en omgeving — al meer dan {new Date().getFullYear() - business.foundedYear} jaar het vertrouwde adres voor installatietechniek.
             </p>
             <div className="flex flex-wrap gap-3">
               <a href={`tel:${business.phoneRaw}`}>
@@ -99,31 +95,17 @@ export default function HomePage() {
             )}
           </div>
           <div className="relative rounded-2xl border border-[var(--color-border)] bg-white shadow-lg overflow-hidden">
-            {/* Google Reviews showcase — sterker dan een stockfoto */}
-            <div className="bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary)]/80 text-white px-6 py-5 flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <svg viewBox="0 0 48 48" className="size-9" aria-hidden="true">
-                  <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
-                  <path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 16.318 4 9.656 8.337 6.306 14.691z"/>
-                  <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/>
-                  <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002 6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
-                </svg>
-                <div>
-                  <div className="text-xs uppercase tracking-wider opacity-80">Google Reviews</div>
-                  <div className="font-bold text-lg leading-tight">{avgRating.toFixed(1)} / 5</div>
-                </div>
+            {/* Experience showcase — voor lang-gevestigd familiebedrijf */}
+            <div className="bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary)]/80 text-white px-6 py-5">
+              <div className="text-xs uppercase tracking-wider opacity-80 mb-1">Familiebedrijf sinds {business.foundedYear}</div>
+              <div className="flex items-baseline gap-2">
+                <div className="text-4xl font-bold leading-none">{new Date().getFullYear() - business.foundedYear}+</div>
+                <div className="font-medium opacity-90">jaar ervaring in Amsterdam</div>
               </div>
-              <div className="text-right">
-                <div className="flex gap-0.5 justify-end">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} className="size-4 fill-[var(--color-secondary)] text-[var(--color-secondary)]" />
-                  ))}
-                </div>
-                <div className="text-xs opacity-80 mt-0.5">{reviews.length} reviews</div>
-              </div>
+              <div className="mt-3 text-sm opacity-90">Vader &amp; zonen — installatietechniek, sanitair &amp; verwarming</div>
             </div>
             <div className="p-6">
-              <div className="text-sm text-slate-500 mb-2">Recente review:</div>
+              <div className="text-sm text-slate-500 mb-2">Klanten aan het woord:</div>
               <blockquote className="text-slate-800 leading-relaxed italic mb-4">
                 &ldquo;{reviews[0]?.text}&rdquo;
               </blockquote>
@@ -133,7 +115,7 @@ export default function HomePage() {
                   <div className="text-xs text-slate-500">{reviews[0]?.city}</div>
                 </div>
                 <div className="flex gap-0.5">
-                  {Array.from({ length: 5 }).map((_, i) => (
+                  {Array.from({ length: reviews[0]?.rating ?? 5 }).map((_, i) => (
                     <Star key={i} className="size-3 fill-[var(--color-secondary)] text-[var(--color-secondary)]" />
                   ))}
                 </div>
@@ -141,7 +123,7 @@ export default function HomePage() {
             </div>
             <div className="border-t border-[var(--color-border)] bg-[var(--color-muted)] px-6 py-3 text-center">
               <Link href="#reviews" className="text-sm font-semibold text-[var(--color-primary)] hover:underline">
-                Bekijk alle {reviews.length} reviews →
+                Lees meer over ons werk →
               </Link>
             </div>
           </div>
