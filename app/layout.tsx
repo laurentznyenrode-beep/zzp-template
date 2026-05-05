@@ -43,7 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <style dangerouslySetInnerHTML={{ __html: themeStyle }} />
       </head>
       <body className="min-h-screen flex flex-col pb-[68px] md:pb-0">
-        <Header business={content.business} emergency={content.emergency} />
+        <Header business={content.business} emergency={content.emergency} branding={content.branding} />
         <main className="flex-1">{children}</main>
         <Footer content={content} />
         <WhatsAppFloat phoneRaw={content.business.phoneRaw} />

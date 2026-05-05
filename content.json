@@ -26,11 +26,11 @@
     "service": "installatietechniek en loodgieterswerk"
   },
   "branding": {
-    "primaryColor": "#312E81",
-    "secondaryColor": "#FBBF24",
-    "logo": "/logo.svg",
-    "favicon": "/favicon.svg",
-    "ogImage": "/og.png"
+    "primaryColor": "#0063e3",
+    "secondaryColor": "#EA580C",
+    "logo": "https://isa-loodgieters.nl/wp-content/uploads/elementor/thumbs/logo-isa-loodgieters-kopie-r1cvchdsgia56s12dlrmbtl9eic3emalasrk52u96o.png",
+    "favicon": "https://isa-loodgieters.nl/wp-content/uploads/2019/02/cropped-favicon-logo-192x192.png",
+    "ogImage": "https://isa-loodgieters.nl/wp-content/uploads/2026/01/whatsapp-image-2026-01-22-at-12.18.27-1-768x1024.jpeg"
   },
   "workArea": [
     { "slug": "amsterdam-centrum", "name": "Amsterdam Centrum", "intro": "Voor de grachtengordel, Jordaan, Plantage en Centrum rijden we dagelijks. Particulieren, VvE's, winkels en horeca — eenheid in aanpak en altijd vaste prijs vooraf." },
@@ -53,15 +53,15 @@
       "shortDescription": "Onze specialiteit — 88+ klanten beoordeelden expliciet ons CV-werk met 5 sterren.",
       "longDescription": "CV-werk is waar we 25 jaar elke dag mee bezig zijn. Wij voeren jaarlijks onderhoud uit, lossen storingen op binnen 24 uur en plaatsen nieuwe ketels van Intergas, Remeha, Nefit en Vaillant. Onze klanten geven ons consistent 5 sterren voor radiator-vervanging, ketel-onderhoud en complete CV-vervangingen. Vaste prijs vooraf, geen voorrijkosten, en u kunt online een offerte aanvragen.",
       "icon": "Flame",
-      "image": "https://images.unsplash.com/photo-1650551182956-47efa0f90b64?w=1200&q=80&auto=format&fit=crop"
+      "image": "https://isa-loodgieters.nl/wp-content/uploads/2026/01/whatsapp-image-2026-01-22-at-12.18.27-1-768x1024.jpeg"
     },
     {
-      "slug": "boiler-warmtepomp",
-      "title": "Boiler & warmtepomp installatie",
-      "shortDescription": "Van klassieke boiler tot warmtepomp en hybride opstelling — toekomstgericht advies.",
-      "longDescription": "Wij installeren elektrische boilers, warmtepompen en hybride CV-opstellingen voor klanten die toekomstgericht willen verwarmen. Onze klant Linda van Rees vertelde: 'Mike installeerde een nieuwe thermostatische ventiel in de badkamer omdat de huurder geen warm water in de douche had. We wonen niet eens in de buurt van Amsterdam — toch kregen we uitstekende service.' Vrijblijvend advies en duidelijke offerte vooraf.",
-      "icon": "ThermometerSun",
-      "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1200&q=80&auto=format&fit=crop"
+      "slug": "dakwerk",
+      "title": "Dakwerk & dakgoten",
+      "shortDescription": "Lekkende dakgoot, gescheurd dakbedekking of HWA-vervanging — wij komen op het dak.",
+      "longDescription": "Naast loodgieterswerk en CV verzorgen wij ook complete dakwerken: dakgoot-reiniging, reparatie en vervanging, hemelwaterafvoer, lekkages aan het dakbedekking en kleinere dakreparaties. Onze monteurs zijn voorzien van VG&M-uitrusting voor dakwerk in de Amsterdamse binnenstad — van zink dakgoot op een gracht-pand tot complete HWA-vervanging op een corporatiewoning.",
+      "icon": "Home",
+      "image": "https://isa-loodgieters.nl/wp-content/uploads/2024/03/bab248eb-e96a-4080-930c-6237f02bbe4b-576x1024.webp"
     },
     {
       "slug": "lekkage",
@@ -77,7 +77,7 @@
       "shortDescription": "Verstopte wc, gootsteen of riool — ook als andere loodgieters het opgaven.",
       "longDescription": "Een verstopping wacht niet. Klant José vertelde: 'Mike was fantastisch. We hadden een hele zware verstopping in onze gootsteen die twee eerdere loodgieters niet konden oplossen. Mike gaf niet op.' Met onze hogedrukreiniger, flexibele veren en camera-inspectie krijgen we vrijwel elke verstopping verholpen — en als anderen het opgaven, geven wij niet op.",
       "icon": "Pipette",
-      "image": "https://images.unsplash.com/photo-1772397546294-a2554a8a9793?w=1200&q=80&auto=format&fit=crop"
+      "image": "https://isa-loodgieters.nl/wp-content/uploads/2024/03/scherm­afbeelding-2024-03-25-om-20.38.06-766x1024.webp"
     },
     {
       "slug": "sanitair",
@@ -85,7 +85,7 @@
       "shortDescription": "Wasbak, douche, toilet, kokendwaterkraan — alle leiding- en sanitairwerk.",
       "longDescription": "Of u één kraan wilt vervangen, een kokendwaterkraan laat installeren of een complete badkamerrenovatie wilt — wij verzorgen alle leiding- en sanitairwerk. Wij werken met topmerken als Grohe, Hansgrohe, Geberit en Villeroy & Boch. Klant Jochum gebruikte ons al meermaals: 'Voor het installeren van een kokendwaterkraan en het repareren van het toilet. Hun model is helder: u betaalt voor het bezoek en advies, en daarna een offerte.'",
       "icon": "ShowerHead",
-      "image": "https://images.unsplash.com/photo-1595515770358-b0047714ccb9?w=1200&q=80&auto=format&fit=crop"
+      "image": "https://isa-loodgieters.nl/wp-content/uploads/2023/09/IMG-20190511-WA0022-768x1024.jpg"
     },
     {
       "slug": "spoeddienst",
@@ -93,7 +93,7 @@
       "shortDescription": "Lekkage 's nachts? CV uit op zondagochtend? Bel direct — we zijn open.",
       "longDescription": "Sommige problemen kunnen niet wachten. Bij gesprongen leidingen, totaal-uitval van de CV-ketel of acute lekkages zijn we letterlijk 24 uur per dag, 7 dagen per week bereikbaar voor heel Amsterdam. Bel ons direct en we sturen zo snel mogelijk een vakman richting uw adres. WC verstopt op zondagochtend voordat de gasten arriveren? Wij lossen het op.",
       "icon": "Siren",
-      "image": "https://images.unsplash.com/photo-1696371269814-ae41fc67cf03?w=1200&q=80&auto=format&fit=crop"
+      "image": "https://isa-loodgieters.nl/wp-content/uploads/2024/03/scherm­afbeelding-2024-03-25-om-20.41.13-767x1024.webp"
     }
   ],
   "reviews": [

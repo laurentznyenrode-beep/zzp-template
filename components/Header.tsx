@@ -15,9 +15,19 @@ const NAV = [
 
 type Business = { name: string; phone: string; phoneRaw: string };
 type Emergency = { enabled: boolean; phone: string; phoneRaw: string; label: string };
+type Branding = { logo?: string };
 
-export function Header({ business, emergency }: { business: Business; emergency: Emergency }) {
+export function Header({
+  business,
+  emergency,
+  branding,
+}: {
+  business: Business;
+  emergency: Emergency;
+  branding?: Branding;
+}) {
   const [open, setOpen] = React.useState(false);
+  const logoIsImage = branding?.logo && /^https?:\/\//.test(branding.logo);
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
@@ -36,8 +46,17 @@ export function Header({ business, emergency }: { business: Business; emergency:
         </div>
       )}
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="font-bold text-slate-900 text-lg">
-          {business.name}
+        <Link href="/" className="flex items-center font-bold text-slate-900 text-lg">
+          {logoIsImage ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={branding!.logo!}
+              alt={business.name}
+              className="h-10 w-auto max-w-[200px] object-contain"
+            />
+          ) : (
+            <span>{business.name}</span>
+          )}
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
