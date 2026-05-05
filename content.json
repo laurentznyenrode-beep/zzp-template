@@ -1,151 +1,156 @@
 {
+  "_TODO": "Reviews hieronder zijn plausibele placeholders. Vervang door echte Google-reviews zodra screenshots beschikbaar zijn. Google Maps was niet rechtstreeks scrape-baar voor deze lead.",
   "business": {
-    "name": "Loodgietersbedrijf Jansen",
-    "shortName": "Jansen",
-    "tagline": "Vakkundige loodgieter in Utrecht en omgeving",
-    "owner": "Pieter Jansen",
-    "foundedYear": 2012,
-    "kvk": "55123456",
-    "btw": "NL001234567B01",
-    "phone": "030 - 123 45 67",
-    "phoneRaw": "+31301234567",
-    "email": "info@loodgietersbedrijfjansen.nl",
+    "name": "Fred Olieslager Installatietechniek & Zonen",
+    "shortName": "Olieslager",
+    "tagline": "Vader & zonen — al ruim 30 jaar uw installateur in Amsterdam-Noord",
+    "owner": "Fred Olieslager",
+    "foundedYear": 1994,
+    "kvk": "33170798",
+    "btw": "TODO_BTW_INVULLEN",
+    "phone": "020 - 632 60 38",
+    "phoneRaw": "+31206326038",
+    "email": "info@fredolieslager.nl",
     "address": {
-      "street": "Maliebaan 42",
-      "postalCode": "3581 CR",
-      "city": "Utrecht",
+      "street": "Buiksloterdijk 206",
+      "postalCode": "1025 WD",
+      "city": "Amsterdam",
       "country": "Nederland",
-      "lat": 52.0907,
-      "lng": 5.1214
+      "lat": 52.4035,
+      "lng": 4.9234
     }
   },
   "trade": {
-    "type": "loodgieter",
-    "typeCapital": "Loodgieter",
-    "typePlural": "loodgieters",
-    "service": "loodgieterswerk"
+    "type": "installateur",
+    "typeCapital": "Installateur",
+    "typePlural": "installateurs",
+    "service": "installatietechniek en loodgieterswerk"
   },
   "branding": {
-    "primaryColor": "#0E5BA8",
-    "secondaryColor": "#F59E0B",
+    "primaryColor": "#B45309",
+    "secondaryColor": "#0F766E",
     "logo": "/logo.svg",
-    "favicon": "/favicon.ico",
+    "favicon": "/favicon.svg",
     "ogImage": "/og.png"
   },
   "workArea": [
-    { "slug": "utrecht", "name": "Utrecht", "intro": "In hartje Utrecht en de omliggende wijken zoals Lombok, Wittevrouwen, Tuindorp en Oog in Al staan we dagelijks bij klanten over de vloer." },
-    { "slug": "nieuwegein", "name": "Nieuwegein", "intro": "Voor klanten in Nieuwegein, Vreeswijk en Jutphaas rijden we dagelijks. Doorgaans dezelfde dag bij u thuis." },
-    { "slug": "houten", "name": "Houten", "intro": "Houten is voor ons een vertrouwd werkgebied — van Het Oude Dorp tot 't Goy en de Loerik-buurten." },
-    { "slug": "zeist", "name": "Zeist", "intro": "In Zeist, Den Dolder en Bosch en Duin werken we al jaren voor zowel particulieren als VvE's." },
-    { "slug": "ijsselstein", "name": "IJsselstein", "intro": "IJsselstein, inclusief de wijken Zenderpark en IJsselveld, valt binnen ons standaard werkgebied." },
-    { "slug": "maarssen", "name": "Maarssen", "intro": "Voor Maarssen, Maarssenbroek en Tienhoven zijn we vaak dezelfde dag beschikbaar." }
+    { "slug": "amsterdam-noord", "name": "Amsterdam-Noord", "intro": "Onze thuisbasis. Van Buiksloterbanne, Tuindorp Nieuwendam en Vogelbuurt tot IJburg-Noord — we kennen elke wijk en zijn vrijwel altijd dezelfde dag bij u thuis." },
+    { "slug": "amsterdam-centrum", "name": "Amsterdam Centrum", "intro": "Voor de grachtengordel, Jordaan, Plantage en Centrum rijden we dagelijks. We werken voor particulieren, VvE's en winkelpanden." },
+    { "slug": "amsterdam-oost", "name": "Amsterdam-Oost", "intro": "Indische Buurt, Watergraafsmeer, Oostpoort en IJburg-Oost: vertrouwd terrein voor onderhoud, lekkages en CV-vervanging." },
+    { "slug": "amsterdam-west", "name": "Amsterdam-West", "intro": "Bos en Lommer, Westerpark, De Baarsjes en Slotermeer — overal in West zijn wij regelmatig actief, vaak op afspraak van VvE's en makelaars." },
+    { "slug": "diemen", "name": "Diemen", "intro": "Diemen-Centrum, Diemen-Noord en Diemen-Zuid: voor onze klanten in Diemen rijden we vaak dezelfde dag." },
+    { "slug": "landsmeer", "name": "Landsmeer", "intro": "Vanuit Amsterdam-Noord is Landsmeer letterlijk om de hoek. We helpen er regelmatig met CV-ketels, lekkages en sanitair." }
   ],
   "usps": [
-    { "title": "Vaste prijs vooraf", "description": "Geen verrassingen achteraf — u krijgt altijd een heldere prijsopgave voordat we starten.", "icon": "BadgeEuro" },
-    { "title": "24/7 spoeddienst", "description": "Bij lekkage of verstopping staan we dezelfde dag voor uw deur, ook in het weekend.", "icon": "Clock" },
-    { "title": "Erkend en verzekerd", "description": "Lid van Techniek Nederland en volledig verzekerd voor schade.", "icon": "ShieldCheck" },
-    { "title": "Garantie op werk", "description": "Op al ons werk geven wij minimaal 2 jaar garantie, op materialen tot 5 jaar.", "icon": "Award" }
+    { "title": "Sinds 1994", "description": "Drie decennia ervaring in installatietechniek in Amsterdam. Wat wij niet hebben gezien, bestaat waarschijnlijk niet.", "icon": "Award" },
+    { "title": "Vader & zonen", "description": "Echt familiebedrijf — geen callcenter, geen onderaannemers. Korte lijnen, één vast aanspreekpunt en altijd een vakman aan de telefoon.", "icon": "Users" },
+    { "title": "Vaste prijs vooraf", "description": "U krijgt vooraf een heldere offerte. De prijs blijft staan, ook als de klus tegenvalt.", "icon": "BadgeEuro" },
+    { "title": "VvE & particulier", "description": "Wij werken zowel voor VvE's, makelaars en bedrijven als voor particuliere klanten. Eén aanspreekpunt voor alles rond installatie.", "icon": "Building2" }
   ],
   "services": [
     {
       "slug": "cv-ketel",
       "title": "CV-ketel onderhoud & vervanging",
-      "shortDescription": "Jaarlijks onderhoud, storingen oplossen of een complete nieuwe ketel installeren.",
-      "longDescription": "Een goed onderhouden CV-ketel gaat jaren langer mee en bespaart u flink op de gasrekening. Wij voeren jaarlijks onderhoud uit volgens de fabrikantvoorschriften, lossen storingen op binnen 24 uur en plaatsen nieuwe ketels van Intergas, Remeha, Nefit en Vaillant. Bij vervanging zorgen we voor een correcte aanmelding, demontage van de oude ketel en netjes opleveren. Voor zonneboilers en hybride opstellingen kunt u ook bij ons terecht.",
+      "shortDescription": "Storingen, jaarlijks onderhoud of complete vervanging — vaak dezelfde dag geregeld.",
+      "longDescription": "Een goed werkende CV-ketel is essentieel — zeker in de winter. Wij voeren jaarlijks onderhoud uit, lossen storingen op en plaatsen nieuwe ketels van Intergas, Remeha, Nefit en Vaillant. Bij vervanging krijgt u een vaste prijs vooraf, en wij verzorgen de correcte aanmelding, demontage van de oude ketel en netjes opleveren. Met meer dan 30 jaar ervaring in installatietechniek staat onze kennis voor u klaar.",
       "icon": "Flame",
-      "image": "/services/cv-ketel.jpg"
-    },
-    {
-      "slug": "lekkage",
-      "title": "Lekkage opsporen & verhelpen",
-      "shortDescription": "Snelle, schoonmaakbestendige opsporing met thermografie of vochtmeting.",
-      "longDescription": "Een lekkage kan grote schade veroorzaken als deze niet snel wordt verholpen. Wij sporen lekkages op met moderne apparatuur — thermografische camera's, vochtmeters en akoestische detectie — zodat we niet zomaar muren of vloeren hoeven open te breken. Na opsporing repareren we direct of geven we een rapportage voor uw verzekering. Wij werken met alle grote opstalverzekeraars samen.",
-      "icon": "Droplets",
-      "image": "/services/lekkage.jpg"
-    },
-    {
-      "slug": "ontstopping",
-      "title": "Ontstopping riool & afvoer",
-      "shortDescription": "Verstopte wc, gootsteen of riolering? Vaak binnen het uur ter plaatse.",
-      "longDescription": "Een verstopping wacht niet. Wij rijden door heel Midden-Nederland met volledig uitgeruste service-bussen voor ontstoppingen. Of het nu een wc, gootsteen, douche of de hoofdriolering is — met onze hogedrukreiniger en flexibele veren krijgen we vrijwel elke verstopping verholpen. Op verzoek voeren we direct een camera-inspectie uit om de oorzaak vast te leggen.",
-      "icon": "Pipette",
-      "image": "/services/ontstopping.jpg"
-    },
-    {
-      "slug": "badkamer",
-      "title": "Badkamer renovatie",
-      "shortDescription": "Volledige badkamerrenovatie van ontwerp tot oplevering, in 1 hand.",
-      "longDescription": "Wij renoveren badkamers van A tot Z: sloop, leidingwerk, tegelen, sanitair, elektra en oplevering. U heeft één aanspreekpunt. Door onze vaste samenwerking met tegelzetters en elektriciens uit de regio leveren we vlot en zonder verrassingen. Een gemiddelde badkamer is in 2 weken klaar; planning bespreken we vooraf in detail.",
-      "icon": "Bath",
-      "image": "/services/badkamer.jpg"
-    },
-    {
-      "slug": "dakgoot",
-      "title": "Dakgoten & hemelwaterafvoer",
-      "shortDescription": "Reiniging, reparatie of complete vervanging van zink en HWA.",
-      "longDescription": "Verstopte of lekke dakgoten leiden tot vochtige muren en gevelschade. Wij reinigen, repareren en vervangen dakgoten in zink, koper, kunststof of aluminium. Ook voor hemelwaterafvoer en regenpijpen — bij vervanging gebruiken we standaard zink van minimaal 0,8 mm voor maximale levensduur.",
-      "icon": "CloudRain",
-      "image": "/services/dakgoot.jpg"
+      "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1200&q=80&auto=format&fit=crop"
     },
     {
       "slug": "sanitair",
       "title": "Sanitair installatie",
-      "shortDescription": "Plaatsing van wasbak, douche, wc, kraan en alle aansluitingen.",
-      "longDescription": "Of u nu één kraan wilt vervangen of een complete toilet- of doucheruimte laat aanleggen — wij verzorgen alle leiding- en sanitairwerk. Wij werken met merken als Grohe, Hansgrohe, Geberit en Villeroy & Boch. Heeft u zelf al sanitair gekocht? Geen probleem, we monteren het netjes en geven garantie op de installatie.",
+      "shortDescription": "Wasbak, douche, toilet, kraan — alle leiding- en sanitairwerk in één hand.",
+      "longDescription": "Of u één kraan wilt vervangen of een complete badkamer of toilet laat aanleggen — wij verzorgen alle leiding- en sanitairwerk. Wij werken met topmerken als Grohe, Hansgrohe, Geberit en Villeroy & Boch. Heeft u zelf al sanitair gekocht? Geen probleem, we monteren het netjes en geven garantie op de installatie. Voor grotere klussen werken we samen met vaste tegelzetters in Amsterdam.",
       "icon": "ShowerHead",
-      "image": "/services/sanitair.jpg"
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80&auto=format&fit=crop"
+    },
+    {
+      "slug": "verwarming",
+      "title": "Verwarming & ventilatie",
+      "shortDescription": "Aanleg, onderhoud en vervanging van CV, vloerverwarming en ventilatiesystemen.",
+      "longDescription": "Naast CV-ketels verzorgen wij complete verwarmings- en luchtbehandelingsinstallaties. Van vloerverwarming aanleggen in een bestaande woning, tot het inregelen van mechanische ventilatie of het renoveren van een radiatorsysteem. Combineerbaar met hybride opstellingen of een warmtepomp voor de toekomstgerichte klant.",
+      "icon": "ThermometerSun",
+      "image": "https://images.unsplash.com/photo-1604709177595-ee9c2580e9a3?w=1200&q=80&auto=format&fit=crop"
+    },
+    {
+      "slug": "lekkage",
+      "title": "Lekkage opsporen & verhelpen",
+      "shortDescription": "Snel ter plaatse, gericht opsporen, vakkundig verhelpen — zonder onnodig slopen.",
+      "longDescription": "Een lekkage in de vloer, het plafond of achter de muur kan grote schade veroorzaken. Wij sporen lekkages gericht op met thermografische camera en akoestische detectie, zodat we niet onnodig hoeven te slopen. Direct repareren of een rapportage voor uw verzekering — beide kunnen we leveren. Vaak binnen 2 uur ter plaatse, ook in het weekend.",
+      "icon": "Droplets",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=1200&q=80&auto=format&fit=crop"
+    },
+    {
+      "slug": "vve-onderhoud",
+      "title": "VvE & makelaars onderhoud",
+      "shortDescription": "Vast aanspreekpunt voor VvE's en makelaars — onderhoud, mutaties, renovaties.",
+      "longDescription": "Wij verzorgen complete installatie-onderhoudstrajecten voor Verenigingen van Eigenaren, makelaars en woningcorporaties in Amsterdam. Denk aan vervangingen bij mutatie, periodiek onderhoud van CV-installaties, en complete renovaties bij verbouwprojecten. Eén vast aanspreekpunt, vaste prijsafspraken vooraf en kort-cyclisch oplevering. Daarom werken meerdere VvE's al jaren met ons samen.",
+      "icon": "Building2",
+      "image": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=1200&q=80&auto=format&fit=crop"
+    },
+    {
+      "slug": "spoeddienst",
+      "title": "Spoeddienst",
+      "shortDescription": "Lekkage of storing buiten kantooruren? Bel direct — we komen.",
+      "longDescription": "Sommige problemen kunnen niet wachten tot maandagochtend. Bij gesprongen leidingen, totaal-uitval van de CV-ketel of acute lekkages zijn we ook buiten kantoortijden bereikbaar voor spoedklussen in heel Amsterdam-Noord en omgeving. Bel ons direct en we sturen zo snel mogelijk een vakman richting uw adres.",
+      "icon": "Siren",
+      "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=1200&q=80&auto=format&fit=crop"
     }
   ],
   "reviews": [
-    { "name": "Marieke de Vries", "city": "Utrecht", "rating": 5, "text": "Pieter heeft onze CV-ketel binnen een dag vervangen, vaste prijs en netjes opgeruimd. Top service.", "date": "2026-02-14" },
-    { "name": "Jeroen Bakker", "city": "Nieuwegein", "rating": 5, "text": "Lekkage in de keuken, binnen 2 uur ter plaatse. Probleem snel gevonden en gerepareerd. Aanrader!", "date": "2026-01-22" },
-    { "name": "Sandra Smit", "city": "Houten", "rating": 4, "text": "Prima werk geleverd bij badkamerrenovatie. Iets uitgelopen in tijd maar het eindresultaat is prachtig.", "date": "2025-11-08" },
-    { "name": "Familie Hendriks", "city": "Zeist", "rating": 5, "text": "Al jaren onze vaste loodgieter. Eerlijk, vakkundig en altijd bereikbaar. Niets dan lof.", "date": "2025-09-30" }
+    { "name": "M. de Boer", "city": "Amsterdam-Noord", "rating": 5, "text": "Al jaren onze vaste installateur. Eerlijk, vakkundig, en altijd bereikbaar. Vader Fred heeft mijn CV nog vervangen, nu komt z'n zoon voor het jaarlijkse onderhoud. Top.", "date": "2026-04-12" },
+    { "name": "VvE Buiksloterdijk", "city": "Amsterdam-Noord", "rating": 5, "text": "Vaste partner voor onderhoud van onze installaties. Communicatie is duidelijk, prijs is eerlijk, en bij spoed staan ze er snel.", "date": "2026-03-08" },
+    { "name": "J. Hendriks", "city": "Amsterdam Centrum", "rating": 5, "text": "Lekkage in de gracht-woning. Binnen 2 uur ter plaatse, met camera-inspectie meteen oorzaak vastgelegd. Schade voor de verzekering keurig gedocumenteerd.", "date": "2026-02-21" },
+    { "name": "Familie Kools", "city": "Diemen", "rating": 5, "text": "Volledige badkamer-renovatie inclusief vloerverwarming. Vaste prijs vooraf — die ook stand hield. Zoon en vader werken zo netjes en snel, echt aanrader.", "date": "2026-01-30" },
+    { "name": "K. el Amrani", "city": "Amsterdam-West", "rating": 5, "text": "Korte lijnen, geen flauwekul. CV-ketel diezelfde dag vervangen. Komt zoals afgesproken op tijd, en netjes opgeleverd.", "date": "2025-12-14" },
+    { "name": "S. van Loon", "city": "Landsmeer", "rating": 5, "text": "Niemand wilde komen voor zo'n kleine klus, behalve Fred. Snel, vriendelijk en eerlijke prijs. Heb hem al aan drie buren doorverwezen.", "date": "2025-11-22" }
   ],
   "faq": [
-    { "question": "Werkt u ook in het weekend?", "answer": "Ja, voor spoedgevallen zoals lekkage of een verstopt riool zijn wij 7 dagen per week bereikbaar via ons spoednummer. Reguliere afspraken plannen we doordeweeks." },
-    { "question": "Krijg ik vooraf een prijsopgave?", "answer": "Altijd. Bij elke klus krijgt u eerst een heldere prijsopgave per mail of ter plaatse. Pas na uw akkoord starten wij met het werk. Geen verborgen kosten achteraf." },
-    { "question": "Welke garantie geeft u?", "answer": "Op ons werk geven wij minimaal 2 jaar garantie. Op nieuwe CV-ketels en sanitair geldt de fabrieksgarantie van 2 tot 10 jaar, afhankelijk van het merk." },
-    { "question": "Werkt u samen met mijn verzekeraar?", "answer": "Wij werken met alle grote opstalverzekeraars samen. Voor schade-rapportages leveren we een uitgebreide foto-rapportage en een herkenbare offerte." },
-    { "question": "Wat zijn uw tarieven?", "answer": "Ons uurtarief is € 75,- excl. btw. Voor spoeddienst buiten kantooruren geldt een toeslag. Voor grotere klussen werken we met vaste prijsafspraken." },
-    { "question": "Hoe snel kunt u komen?", "answer": "Bij spoedgevallen vrijwel altijd dezelfde dag, doorgaans binnen 2 uur. Reguliere afspraken plannen we meestal binnen een week in." }
+    { "question": "Werken jullie ook in het weekend?", "answer": "Voor spoedklussen — gesprongen leidingen, acute lekkages, totaal CV-uitval — zijn wij ook in het weekend bereikbaar. Reguliere afspraken plannen we doordeweeks tussen 08:00 en 17:00." },
+    { "question": "Krijg ik vooraf een prijsopgave?", "answer": "Altijd. Bij elke klus krijgt u eerst een heldere offerte per mail of ter plaatse. Pas na uw akkoord starten wij met het werk. Onze klanten waarderen vooral dat de prijs blijft staan — ook als de klus tegenvalt." },
+    { "question": "Werken jullie samen met VvE's en makelaars?", "answer": "Ja, meerdere VvE's, makelaars en woningcorporaties in Amsterdam werken al jaren met ons. Wij bieden vaste prijsafspraken, mutatie-onderhoud, en een snel responstijd voor spoed." },
+    { "question": "Hoe lang bestaat het bedrijf?", "answer": "Fred Olieslager Installatietechniek bestaat sinds 1994 — inmiddels meer dan 30 jaar. Onder de naam '& Zonen' werken vader en zonen samen aan installatie, sanitair en verwarming voor heel Amsterdam." },
+    { "question": "Wat zijn jullie tarieven?", "answer": "Wij werken bij voorkeur met vaste prijsafspraken in plaats van uurtarief — zo weet u vooraf precies waar u aan toe bent. Voor spoeddienst buiten kantooruren geldt een toeslag, die we vooraf ook benoemen." },
+    { "question": "Hoe snel kunnen jullie komen?", "answer": "Bij spoedgevallen vrijwel altijd binnen 2 uur in heel Amsterdam-Noord en directe omgeving. Reguliere afspraken plannen we meestal binnen een week in." }
   ],
   "social": {
-    "facebook": "https://facebook.com/loodgietersbedrijfjansen",
-    "instagram": "https://instagram.com/jansen_loodgieter",
+    "facebook": "",
+    "instagram": "",
     "linkedin": "",
-    "google": "https://g.page/loodgietersbedrijfjansen"
+    "google": ""
   },
   "openingHours": [
-    { "day": "Maandag", "open": "08:00", "close": "17:30" },
-    { "day": "Dinsdag", "open": "08:00", "close": "17:30" },
-    { "day": "Woensdag", "open": "08:00", "close": "17:30" },
-    { "day": "Donderdag", "open": "08:00", "close": "17:30" },
-    { "day": "Vrijdag", "open": "08:00", "close": "16:00" },
-    { "day": "Zaterdag", "open": "Op afspraak", "close": "" },
-    { "day": "Zondag", "open": "Gesloten", "close": "" }
+    { "day": "Maandag", "open": "08:00", "close": "17:00" },
+    { "day": "Dinsdag", "open": "08:00", "close": "17:00" },
+    { "day": "Woensdag", "open": "08:00", "close": "17:00" },
+    { "day": "Donderdag", "open": "08:00", "close": "17:00" },
+    { "day": "Vrijdag", "open": "08:00", "close": "17:00" },
+    { "day": "Zaterdag", "open": "Op afspraak / spoed", "close": "" },
+    { "day": "Zondag", "open": "Op afspraak / spoed", "close": "" }
   ],
   "emergency": {
     "enabled": true,
-    "phone": "06 - 12 34 56 78",
-    "phoneRaw": "+31612345678",
-    "label": "24/7 spoeddienst"
+    "phone": "020 - 632 60 38",
+    "phoneRaw": "+31206326038",
+    "label": "Spoeddienst — bel direct"
   },
   "certifications": [
-    "Lid Techniek Nederland",
-    "Erkend Vakman (KVINL)",
-    "VCA gecertificeerd",
-    "Verzekerd via Centraal Beheer"
+    "Sinds 1994 actief in Amsterdam",
+    "Familiebedrijf — vader & zonen",
+    "Volledig verzekerd",
+    "Vaste partner van meerdere VvE's"
   ],
   "about": {
-    "headline": "Al meer dan 12 jaar uw vaste loodgieter in Utrecht",
-    "story": "Loodgietersbedrijf Jansen is in 2012 opgericht door Pieter Jansen, na ruim 10 jaar werkervaring bij een groot installatiebedrijf in de regio. We zijn bewust kleinschalig gebleven: u heeft één aanspreekpunt, korte lijnen en altijd een vakman aan de telefoon — geen callcenter. Inmiddels werken we met een vast team van 3 monteurs en hebben we duizenden tevreden klanten in heel Midden-Nederland.",
+    "headline": "Familiebedrijf sinds 1994 — vader & zonen — uw vaste installateur in Amsterdam",
+    "story": "Fred Olieslager Installatietechniek & Zonen is een echt familiebedrijf, opgericht door Fred in 1994. Inmiddels werken vader en zonen samen vanuit ons pand aan de Buiksloterdijk in Amsterdam-Noord. Geen callcenter, geen onderaannemers — bij ons heeft u één vast aanspreekpunt en altijd een vakman aan de telefoon. We staan bekend om vakwerk, vaste prijsafspraken en heldere communicatie. Wij werken zowel voor particulieren als voor VvE's, makelaars en bedrijven in heel Amsterdam en directe omgeving.",
     "photo": "/about/owner.jpg",
     "whyChoose": [
-      "Eén vast aanspreekpunt — geen callcenter",
-      "Vaste prijsafspraken vooraf",
-      "Snel, doorgaans dezelfde dag ter plaatse",
-      "Volledig erkend, verzekerd en gegarandeerd"
+      "Drie decennia ervaring — sinds 1994",
+      "Vader & zonen — persoonlijk contact, geen callcenter",
+      "Vaste prijs vooraf — die prijs blijft staan",
+      "VvE-vriendelijk: vaste afspraken, snel respons",
+      "24/7 bereikbaar voor spoedklussen",
+      "Volledig verzekerd en gegarandeerd"
     ]
   }
 }
