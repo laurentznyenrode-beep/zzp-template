@@ -26,13 +26,25 @@ export default function AboutPage() {
 
       <section className="bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16 grid md:grid-cols-2 gap-12 items-start">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-[var(--color-border)] bg-slate-100">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://placehold.co/600x750/0E5BA8/ffffff?text=Foto+eigenaar"
-              alt={`${business.owner}, eigenaar van ${business.name}`}
-              className="size-full object-cover"
-            />
+          <div className="rounded-2xl border border-[var(--color-border)] bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary)]/85 text-white p-8 md:p-10 shadow-lg">
+            <div className="text-xs font-semibold uppercase tracking-widest text-white/70 mb-3">
+              Familiebedrijf · sinds {business.foundedYear}
+            </div>
+            <div className="text-5xl md:text-6xl font-bold leading-none mb-2">
+              Vader<br />&amp;<br />Zoon
+            </div>
+            <div className="text-lg font-medium text-white/90 mt-6 mb-1">{business.owner}</div>
+            <div className="text-sm text-white/70 mb-8">Eigenaar — {business.name}</div>
+            <div className="border-t border-white/20 pt-6 grid grid-cols-2 gap-4 text-sm">
+              <div>
+                <div className="text-2xl font-bold">5.0</div>
+                <div className="text-white/70 text-xs uppercase tracking-wider">Google rating</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold">{new Date().getFullYear() - business.foundedYear}+</div>
+                <div className="text-white/70 text-xs uppercase tracking-wider">Jaar ervaring</div>
+              </div>
+            </div>
           </div>
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Ons verhaal</h2>
