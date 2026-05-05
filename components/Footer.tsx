@@ -48,7 +48,7 @@ export function Footer({ content }: { content: Content }) {
             {workArea.map((w) => (
               <li key={w.slug}>
                 <Link href={`/werkgebied/${w.slug}`} className="hover:text-white">
-                  {content.trade.typeCapital} in {w.name}
+                  {w.name}
                 </Link>
               </li>
             ))}

@@ -53,7 +53,7 @@
       "shortDescription": "Storingen, jaarlijks onderhoud of een complete vervanging — vaak dezelfde dag geregeld.",
       "longDescription": "Een goed werkende CV-ketel is essentieel — zeker in de winter. Wij voeren jaarlijks onderhoud uit, lossen storingen op en plaatsen nieuwe ketels van Intergas, Remeha, Nefit en Vaillant. Bij vervanging krijgt u een vaste prijs vooraf, en we zorgen voor correcte aanmelding, demontage van de oude ketel en netjes opleveren. Onze klanten waarderen vooral dat de offerte staat — geen verrassingen achteraf.",
       "icon": "Flame",
-      "image": "/services/cv-ketel.jpg"
+      "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1200&q=80&auto=format&fit=crop"
     },
     {
       "slug": "vloerverwarming",
@@ -61,7 +61,7 @@
       "shortDescription": "Specialiteit van het huis — van 20 m² appartement tot 100 m² woonhuis.",
       "longDescription": "Vloerverwarming aanleggen is een van onze specialiteiten. We hebben de afgelopen jaren tientallen systemen geplaatst, van compacte appartementen tot complete benedenverdiepingen van 50+ m². We werken met gerenommeerde merken (Henco, Uponor, Begetube), leveren een duidelijke en concurrerende offerte, en geven vooraf telefonisch heldere uitleg over materialen en uitvoering. Combineerbaar met uw bestaande CV-installatie of nieuwe warmtepomp.",
       "icon": "ThermometerSun",
-      "image": "/services/vloerverwarming.jpg"
+      "image": "https://images.unsplash.com/photo-1604709177595-ee9c2580e9a3?w=1200&q=80&auto=format&fit=crop"
     },
     {
       "slug": "lekkage",
@@ -69,7 +69,7 @@
       "shortDescription": "Snel ter plaatse, gericht opsporen, vakkundig verhelpen — meestal binnen 2 uur.",
       "longDescription": "Een lekkage in de vloer, het plafond of achter de muur kan grote schade veroorzaken. Wij sporen lekkages gericht op met thermografische camera en akoestische detectie, zodat we niet onnodig hoeven te slopen. Direct repareren of een rapportage voor uw verzekering — beide kunnen we leveren. Klant Volkan beschrijft het zo: 'We hadden een ernstige lekkage in onze vloer. Na wat zoeken vonden we dit bedrijf en spraken we met een vriendelijke jongeman.' Snel én ontzorgd.",
       "icon": "Droplets",
-      "image": "/services/lekkage.jpg"
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=1200&q=80&auto=format&fit=crop"
     },
     {
       "slug": "sanitair",
@@ -77,7 +77,7 @@
       "shortDescription": "Wasbak, douche, toilet of complete badkamer — alle leiding- en sanitairwerk.",
       "longDescription": "Of u nu één kraan wilt vervangen of een complete badkamer laat aanleggen — wij verzorgen alle leiding- en sanitairwerk. Wij werken met merken als Grohe, Hansgrohe, Geberit en Villeroy & Boch. Heeft u zelf al sanitair gekocht? Geen probleem, we monteren het netjes en geven garantie op de installatie. Bij grotere klussen werken we samen met vaste tegelzetters in de regio.",
       "icon": "ShowerHead",
-      "image": "/services/sanitair.jpg"
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80&auto=format&fit=crop"
     },
     {
       "slug": "spoeddienst",
@@ -85,7 +85,7 @@
       "shortDescription": "Lekkage in de nacht? Storing in het weekend? Bel direct — we komen.",
       "longDescription": "Sommige problemen kunnen niet wachten tot maandagochtend. Bij lekkages, gesprongen leidingen, totaal-uitval van de CV-ketel of een verstopt riool zijn we 24 uur per dag, 7 dagen per week bereikbaar. Bel ons spoednummer en doorgaans staat er binnen 2 uur een vakman voor uw deur — ook in het weekend en op feestdagen. Voor heel Amsterdam en directe omgeving.",
       "icon": "Siren",
-      "image": "/services/spoed.jpg"
+      "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=1200&q=80&auto=format&fit=crop"
     },
     {
       "slug": "installatietechniek",
@@ -93,7 +93,7 @@
       "shortDescription": "Voor VvE's, makelaars, woningcorporaties en bedrijven — ook complete projecten.",
       "longDescription": "Naast particulier werk verzorgen we ook complete installatietrajecten voor VvE's, makelaars, woningcorporaties en bedrijven in Amsterdam. Denk aan vervangingen bij mutatie, periodiek onderhoud van CV-installaties, en complete renovaties. Eén vast aanspreekpunt, vaste prijsafspraken vooraf en kort-cyclisch oplevering — daarom werken meerdere VvE's al jaren met ons samen.",
       "icon": "Wrench",
-      "image": "/services/installatietechniek.jpg"
+      "image": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=1200&q=80&auto=format&fit=crop"
     }
   ],
   "reviews": [
